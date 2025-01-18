@@ -1,0 +1,10 @@
+PORT = 3000
+DEVELOPER = 'Aviv Elany'
+
+JWT_SECRET = "hireMeNoew!@#"  #You hear me right :))
+JWT_EXPIRES_IN = "15m"
+
+# collection name is: FitSphere ==> here we can change it  
+
+MONGODB_URI_DEV = "mongodb://localhost:27017/FitSphere"
+MONGODB_URI_PROD = "mongodb://localhost:27017/FitSphere_production"
